@@ -155,3 +155,34 @@ h4 {
    background-color: hsl(75, 94%, 57%);
    color: hsl(0, 0%, 8%);
 }
+
+
+@media screen and (max-width: 375px) {
+   .container {
+      width: 80%;
+   }
+
+   .box1, .box2, .box3, .box4, .box5 {
+      width: 80%;
+      height: 45px;
+   }
+
+   .card-socialmedias {
+      gap: 15px;
+   }
+
+   h2 {
+      font-size: 21px;
+   }
+
+   h3 {
+      font-size: 14px;
+   }
+
+   h4 {
+      width: 270px;
+      margin: auto;
+      padding-bottom: 20px;
+      font-size: 14px;
+   }
+}
